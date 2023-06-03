@@ -1,0 +1,14 @@
+[
+    {
+        "id": "Report Issue",
+        "value": "livechatJson/ReportIssue.json"
+    },
+    {
+        "id": "Payment Issue",
+        "value": "livechatJson/PaymentIssue.json"
+    },
+    {
+        "id": "Welcome",
+        "value": "livechatJson/Welcome.json"
+    }
+]

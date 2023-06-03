@@ -29,13 +29,8 @@ def assemblyButtons(fileName):
     result = createButtons(buttons)
     return result
 
-def createMessages():
-    with open('messages.json', 'r') as f:
-        messages = json.load(f)
-    return messages
-
 def checkMessage(id):
-    with open('conversation.json', 'r') as f:
+    with open('livechatJson/conversation.json', 'r') as f:
         messages = json.load(f) 
 
     for item in messages:
@@ -48,7 +43,7 @@ def checkMessage(id):
                 return item['message']
 
 def checkMessageType(id):
-    with open('conversation.json', 'r') as f:
+    with open('livechatJson/conversation.json', 'r') as f:
         messages = json.load(f) 
 
     for item in messages:
@@ -61,7 +56,7 @@ def checkMessageType(id):
                 return item['type']  
 
 def chooseRichMessageBody(id):
-    with open('Rich_message.json', 'r') as f:
+    with open('livechatJson/Rich_message.json', 'r') as f:
         messages = json.load(f) 
 
     for item in messages:

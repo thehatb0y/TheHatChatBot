@@ -3,8 +3,8 @@ import requests
 import json
 import messageBuilder
 
-token = "x"
-agentEmail = "x"
+token = "dal:YA_b1StwgLlv6rKDSX0KcExWUYw"
+agentEmail = "mts.c+r2@live.com"
 mB = messageBuilder
 
 def listChat():
