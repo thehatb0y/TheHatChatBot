@@ -1,0 +1,81 @@
+[
+    {
+        "id": "Report Issue",
+        "conversation": [
+            {
+            "cvID": "Report Issue",
+            "message": "Do you want to report an issue with a channel or a movie?",
+            "type": "rich_message"
+            },
+            {
+            "cvID": "Channel",
+            "message": "Please provide me the channel number for report, if you have more than one channel, report every channel separated by space in the same line.",
+            "type": "message"
+            },
+            {
+            "cvID": "Movie",
+            "message": "Please provide me the tittle for report, if you have more than one tittle, report every tittle separated by space in the same line.",
+            "type": "message"
+            },
+            {
+            "cvID": "Bye",
+            "message": "Thank you for contacting us. We appreciate your inquiry. Have a great day!",
+            "type": "message"
+            }
+        ]
+    },
+    {
+        "id": "Payment Issue",
+        "conversation": [
+            {
+            "cvID": "Payment Issue",
+            "message": "What's the error message in the payment screen?",
+            "type": "rich_message"
+            },
+            {
+            "cvID": "Invalid Card",
+            "message": "To fix the Invalid message, please make sure you are not using auto-fill, the issue is related to auto-fill or an outdated browser. If you are not using auto-fill, please clear your browser cache. \nIf you have already tried to clear your browser cache, please download a new and different browser, if you are used to chrome, then download Firefox, opera and try it once again, those steps should fix it for sure.",
+            "type": "message"
+            },
+            {
+            "cvID": "Duplicate Transaction",
+            "message": "To fix the Invalid message, please make sure you are not using auto-fill, the issue is related to auto-fill or an outdated browser such as credit card information or ZIP code. \nIf you are not using auto-fill, please clear your browser cache, if you have already tried to clear your browser cache, please download a new and different browser, if you are used to chrome, then download Firefox, opera and try it once again, those steps should fix it for sure.",
+            "type": "message"
+            },
+            {
+            "cvID": "Transaction Declined",
+            "message": "If you are receiving Transaction Declined, that means your card may not  be valid at our website or your card company may be blockin our transaction, please contact your card company to authorize the transaction and make sure your address listed on the website matches the address listed on the card company.",
+            "type": "message"
+            },
+            {
+            "cvID": "Other",
+            "message": "Thank you for contacting us. We appreciate your inquiry. Have a great day!",
+            "type": "message"
+            }
+        ]
+    },
+    {
+        "id": "Transfer to Agent",
+        "message": "Got it, i'll transfer you to an live agent. Please wait a moment.",
+        "type": "message",
+        "conversation": "False"
+    },
+    {
+        "id": "Thank You",
+        "message": "Thank you for contacting us. We appreciate your inquiry. Have a great day!",
+        "type": "message",
+        "conversation": "False"
+    },
+    {
+        "id": "Welcome",
+        "message": "I'm your virtual assistent.\nPlease select one of the following options:\n1. Password Reset\n2. Payment Issues\n3. Report Issue\n4. Transfer to Live Agent\n",
+        "type": "message",
+        "conversation": "False"
+    },
+    {
+        "id": "Password Reset",
+        "message": "To reset your website password, please follow this link: xxxx\nPlease check your spam folder or junk email for an email named 'SoPlayer'. If you do not receive the email, please come back in a few hours to speak with an agent.",
+        "type": "message",
+        "conversation": "False"
+    }
+]
