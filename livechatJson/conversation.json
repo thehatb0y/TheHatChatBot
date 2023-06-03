@@ -74,7 +74,7 @@
     },
     {
         "id": "Password Reset",
-        "message": "To reset your website password, please follow this link: https://royalty2.com/index.php?route=account/forgotten\nPlease check your spam folder or junk email for an email named 'SoPlayer'. If you do not receive the email, please come back in a few hours to speak with an agent.",
+        "message": "To reset your website password, please follow this link: x\nPlease check your spam folder or junk email for an email named 'SoPlayer'. If you do not receive the email, please come back in a few hours to speak with an agent.",
         "type": "message",
         "conversation": "False"
     }
